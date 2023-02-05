@@ -22,4 +22,4 @@ var response = await chatGptClient.Ask("text");
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 Console.OutputEncoding = Encoding.GetEncoding("UTF-8");
 Console.WriteLine(response);
-Console.WriteLine("輸入問題:");
+// Console.WriteLine("輸入問題:");
