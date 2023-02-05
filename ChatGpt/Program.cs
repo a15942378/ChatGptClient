@@ -15,7 +15,7 @@ var chatGptClient = await  chatGpt.CreateClient(new ChatGptClientConfig
     SessionToken = ""
 });
 
-// var text = Console.ReadLine() ?? "1+1等於幾";
+var text = Console.ReadLine() ?? "1+1等於幾";
 
 var response = await chatGptClient.Ask("text");
 
